@@ -69,7 +69,7 @@
       statusDiv.textContent = 'Gerando APK...';
 
       try {
-        const response = await fetch('https://pwabuilder-api.azurewebsites.net/api/package', {
+        const response = await fetch('https://pwabuilder-api-dev.windows.net/api/package', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
